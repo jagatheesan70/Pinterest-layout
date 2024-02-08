@@ -1,0 +1,164 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 10%;
+    width: 12%;
+    }
+.logo-nav{
+    display: flex;
+    width: 100%;
+    padding-left: 25px;
+    align-items: center;
+    }
+select
+    {
+    background-color: white;
+    padding: 15px 10px;
+    font-size: 14px;
+    border: 2px solid black;
+    font-weight: 100;
+    border-radius:50px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.logo-nav ul
+{
+    padding-left: 955px;
+}
+#center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dot {
+    height: 250px;
+    width: 430px;
+    background-color: #ed1212;
+    border-radius: 20px;
+    margin-top: 25px;
+    position: relative;
+
+  }
+
+#pro img{
+    height: 160px;
+    width: 160px;
+    background-color: black;
+    border-radius: 80px;
+    margin-top: 155px;
+    margin-left: 135px;
+    position: absolute;
+}
+
+.box {
+    display: flex;
+    width: 150px;
+    height: 200px;
+    /* float: left; */
+
+}
+
+.column
+{
+    float:left;
+    padding: 0px;
+    margin-top: 35px;
+    text-align: center;   
+}
+.row
+{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 40px;
+    padding: 0px 14px;
+    color:black;
+}
+  .access{
+    margin-top: 90px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #111;
+}
+.footer-container{
+    width: 100%;
+    padding: 100px 5px 30px;
+    
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-icon a i{
+    font-size: 1em;
+    color: black;
+    opacity: 0.9; 
+}
+
+/Hover Effects on Social Media Icons/
+.social-icon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+.footer-bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
